@@ -1,3 +1,6 @@
-git pull -f
-pip install --quiet -U -r requirements.txt
-python3 main.py
+cd /app
+rm -rf File-Sharing-Bot
+git clone https://github.com/Dra-Sama/File-Sharing-Bot/
+cd File-Sharing-Bot
+pip install --quiet -r requirements.txt
+python main.py
